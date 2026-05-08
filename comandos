@@ -1,0 +1,8 @@
+Criar pasta package.json
+Terminal → Novo Terminal
+
+Instalar Express
+npm install express
+
+Testar
+node server.js
