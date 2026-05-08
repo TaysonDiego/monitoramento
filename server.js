@@ -18,6 +18,9 @@ app.post('/dados', (req, res) => {
     if (token !== TOKEN) {
         return res.status(401).send("Token de autenticação inválido");
     }
+    console.log("TOKEN RECEBIDO:", token);
+    console.log("TOKEN ESPERADO:", TOKEN);
+    
     console.log("Dados recebidos:");
     console.log(req.body);
 
